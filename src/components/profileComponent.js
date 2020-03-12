@@ -52,7 +52,7 @@ const Profile = () => {
             }
             .profile-name {
                 color: #f35626;
-                font-size: 4em;
+                font-size: 4rem;
                 background-image: linear-gradient(92deg, blue 0%, green 75%);
                 -webkit-background-clip: text;
                 background-clip: text;
@@ -143,9 +143,18 @@ const Profile = () => {
                 .profile-link-box{
                     padding: 11px;
                 }
+                .profile-name {
+                    font-size: 3em;
+                }
                 .profile-details {
                     display: flex;
                     width: 100%;
+                }
+              }
+
+              @media only screen and (max-width: 450px) {
+                .profile-name {
+                    font-size: 2em;
                 }
               }
         `}</style>
