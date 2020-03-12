@@ -152,9 +152,9 @@ const Profile = () => {
                 }
               }
 
-              @media only screen and (max-width: 450px) {
+              @media only screen and (max-width: 545px) {
                 .profile-name {
-                    font-size: 2em;
+                    font-size: 2.2em !important;
                 }
               }
         `}</style>
