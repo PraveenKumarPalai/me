@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.button-s{
+  background-color: white;
+  border: 1px solid blue;
+  font-size: 1.1em;
+  margin: 0;
+  border-radius: 7px;
+  color: blue;
+  /* background: #0070f3; */
+  /* box-shadow: 0 4px 14px 0 rgba(0,118,255,0.39); */
+  padding: 0 2rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
