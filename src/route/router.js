@@ -9,10 +9,10 @@ const Routes = () => {
         <>
             <Router>
                 <Switch>
-                    <Route exact path="/me" component={App} />
-                    <Route exact path="/">
+                    <Route exact path="/" component={App} />
+                    {/* <Route exact path="/">
                         <Redirect to="/me" />
-                    </Route>
+                    </Route> */}
                     <Route path="https://github.com/PraveenKumarPalai" />
                     <Route component={Error} />
                 </Switch>
